@@ -196,7 +196,7 @@ public class ChunkOwn extends JavaPlugin {
         pm.registerEvent(Type.BLOCK_DAMAGE, blockListener, Priority.Highest, this);
         pm.registerEvent(Type.BLOCK_IGNITE, blockListener, Priority.Highest, this);
         pm.registerEvent(Type.BLOCK_PLACE, blockListener, Priority.Highest, this);
-        pm.registerEvent(Type.BLOCK_SPREAD, blockListener, Priority.Highest, this);
+        // pm.registerEvent(Type.BLOCK_SPREAD, blockListener, Priority.Highest, this);
         pm.registerEvent(Type.SIGN_CHANGE, blockListener, Priority.Highest, this);
         pm.registerEvent(Type.PAINTING_PLACE, entityListener, Priority.Highest, this);
         pm.registerEvent(Type.VEHICLE_DAMAGE, vehicleListener, Priority.Highest, this);
